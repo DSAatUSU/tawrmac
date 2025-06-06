@@ -26,7 +26,7 @@ For example:
 python utils/preprocess_data.py --data wikipedia --bipartite
 ```
 
-#### Best Hyperparameters for Our Model
+### Best Hyperparameters for Our Model
 
 Table 1: Configuration of TAWRMAC Across All Datasets
 | **Module** | **Hyper-parameter**                                       | **Value** |
