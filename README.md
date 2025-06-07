@@ -44,8 +44,8 @@ Table 1: Configuration of TAWRMAC Across All Datasets
 |            | Time scaling factor (\$\alpha\$)                          | 1e-6      |
 
 
-Table 2: Configuration of number of temporal walks with restart (**M**), number of sampled neighbors in NCE (**r**), positional frequency vector dimension (**d\_v**), walk encoding dimension (**d\_w**), and neighbor sampling strategies (**NbSS**) across different datasets.
-| **Dataset**         | **M**       | **r**         | **d\_v**       | **d\_w**       | **NbSS** |
+Table 2: Configuration of number of temporal walks with restart (**M**), number of sampled neighbors in NCE (**r**), positional frequency vector dimension (**\$d\_v\$**), walk encoding dimension (**\$d\_w\$**), and neighbor sampling strategies (**NbSS**) across different datasets.
+| **Dataset**         | **\$M\$**       | **\$r\$**         | **\$d\_v\$**       | **\$d\_w\$**       | **NbSS** |
 | ------------------- | ----------- | ------------- | -------------- | -------------- | -------- |
 | Wikipedia\*         | 10 / 10 / 1 | 32 / 32 / 128 | 100 / 100 / 10 | 172 / 172 / 10 | recent   |
 | Reddit              | 10          | 32            | 100            | 172            | recent   |
