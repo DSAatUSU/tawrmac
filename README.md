@@ -54,8 +54,8 @@ Table 2: Configuration of number of temporal walks with restart (**M**), number 
 | Enron\*             | 10 / 1 / 1  | 32 / 8 / 8    | 100 / 10 / 10  | 172 / 10 / 10  | recent   |
 | UCI\*               | 10          | 32 / 4 / 4    | 100            | 172            | recent   |
 | Flights             | 20          | 32            | 100            | 172            | recent   |
-| Canadian Parliament | 30          | 500           | 100            | 172            | uniform  |
-| US Legislature\*    | 10          | 200 / 32 / 32 | 100            | 172            | recent   |
+| Can. Parl. | 30          | 500           | 100            | 172            | uniform  |
+| US Legis.\*    | 10          | 200 / 32 / 32 | 100            | 172            | recent   |
 | UN Trade            | 20          | 200           | 100            | 172            | uniform  |
 | UN Vote             | 20          | 100           | 100            | 172            | uniform  |
 | Contact             | 10          | 32            | 100            | 172            | recent   |
