@@ -44,7 +44,7 @@ Table 1: Configuration of TAWRMAC Across All Datasets
 |            | Time scaling factor (\$\alpha\$)                          | 1e-6      |
 
 
-Table 2: Dataset-Specific Parameters
+Table 2: Configuration of number of temporal walks with restart (**M**), number of sampled neighbors in NCE (**r**), positional frequency vector dimension (**d\_v** $), walk encoding dimension (**d\_w**$), and neighbor sampling strategies (**NbSS**) across different datasets.
 | **Dataset**         | **M**       | **r**         | **d\_v**       | **d\_w**       | **NbSS** |
 | ------------------- | ----------- | ------------- | -------------- | -------------- | -------- |
 | Wikipedia\*         | 10 / 10 / 1 | 32 / 32 / 128 | 100 / 100 / 10 | 172 / 172 / 10 | recent   |
@@ -59,6 +59,8 @@ Table 2: Dataset-Specific Parameters
 | UN Trade            | 20          | 200           | 100            | 172            | uniform  |
 | UN Vote             | 20          | 100           | 100            | 172            | uniform  |
 | Contact             | 10          | 32            | 100            | 172            | recent   |
+
+*For columns with multiple values, the first value corresponds to random NS, the second to historical NS, and the third to inductive NS.
 
 
 ### Model Training
