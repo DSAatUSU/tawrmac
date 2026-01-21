@@ -43,6 +43,7 @@ python train_node_classification.py --use_memory --enable_walk --enable_dynamic_
 This repository accompanies our paper accepted at **The Web Conference (TheWebConf) 2026**.
 
 arXiv: https://arxiv.org/abs/2510.09884
+
 DOI: 10.1145/3774904.3792163 *(to appear)*
 
 ## License
