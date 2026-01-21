@@ -39,3 +39,8 @@ the link prediction task):
 ```{bash}
 python train_node_classification.py --use_memory --enable_walk --enable_dynamic_restart --enable_neighbor_cooc --n_runs 5 --model_date 20241206102940
 ```
+
+
+## License
+
+This project is licensed under the MIT License – see the [LICENSE](LICENSE) file for details.
