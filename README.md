@@ -1,8 +1,6 @@
 # TAWRMAC
 
-In this paper, we propose a novel dynamic
-graph representation learning framework featuring Temporal
-Anonymous Walks with Restart, Memory Augmentation and Neighbor Co-occurrence
+In this paper, we propose a novel dynamic graph representation learning framework featuring Temporal Anonymous Walks with Restart, Memory Augmentation and Neighbor Co-occurrence.
 
 ## Running the experiments
 
@@ -40,6 +38,12 @@ the link prediction task):
 python train_node_classification.py --use_memory --enable_walk --enable_dynamic_restart --enable_neighbor_cooc --n_runs 5 --model_date 20241206102940
 ```
 
+## Citation
+
+This repository accompanies our paper accepted at **The Web Conference (TheWebConf) 2026**.
+
+arXiv: https://arxiv.org/abs/2510.09884
+DOI: 10.1145/3774904.3792163 *(to appear)*
 
 ## License
 
