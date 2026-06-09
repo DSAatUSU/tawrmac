@@ -42,9 +42,25 @@ python train_node_classification.py --use_memory --enable_walk --enable_dynamic_
 
 This repository accompanies our paper accepted at **The Web Conference (TheWebConf) 2026**.
 
-arXiv: https://arxiv.org/abs/2510.09884
-
-DOI: 10.1145/3774904.3792163 *(to appear)*
+Please cite the following paper:
+```
+@inproceedings{10.1145/3774904.3792163,
+author = {Farokhi, Soheila and Qi, Xiaojun and Karimi, Hamid},
+title = {TAWRMAC: A Novel Dynamic Graph Representation Learning Method},
+year = {2026},
+isbn = {9798400723070},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3774904.3792163},
+doi = {10.1145/3774904.3792163},
+booktitle = {Proceedings of the ACM Web Conference 2026},
+pages = {684–695},
+numpages = {12},
+keywords = {dynamic graph representation learning, graph neural network, temporal walks, link prediction, node classification},
+location = {United Arab Emirates},
+series = {WWW '26}
+}
+```
 
 ## License
 
