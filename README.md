@@ -44,7 +44,7 @@ This repository accompanies our paper accepted at **The Web Conference (TheWebCo
 
 Please cite the following paper:
 ```
-@inproceedings{10.1145/3774904.3792163,
+@inproceedings{farokhi2026tawrmac,
 author = {Farokhi, Soheila and Qi, Xiaojun and Karimi, Hamid},
 title = {TAWRMAC: A Novel Dynamic Graph Representation Learning Method},
 year = {2026},
